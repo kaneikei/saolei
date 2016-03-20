@@ -1,0 +1,31 @@
+@font-face {
+  font-family:"My thin";
+  font-style:normal;
+  font-weight:100;
+  src:local("My thin"), 
+  url("../fonts/myriad-set-pro_text.woff") format("woff");
+}
+body{color: black;font-family: 'My thin';background-image: url(../images/2.jpg);background-size: cover;opacity:0.9;}
+.sence{width: 600px;height: 600px;border:1px solid black;margin:0 auto;cursor:pointer;background-color: white;border-radius: 5px;opacity: 0.9}
+.sencecopy{width: 1365px;height: 600px;position: absolute;top: 0;left: 0;z-index: 200;display: none}
+.faxian{width: 400px;height: 200px;position: absolute;top: 90px;left: 50%;z-index: 900;margin-left: -200px;opacity: 0.8;border-radius:50px;background-image: url(../images/3.jpg);display: none;background-repeat: no-repeat;background-size: 400px 200px;transition:all 0.6s ease;}
+.hao{position: absolute;top: 230px;left: 50px;background-color: white;width: 120px;height: 60px;border-radius: 40px;background-image: url(../images/hao.png);cursor: pointer;}
+.buhao{position: absolute;top: 230px;right: 50px;background-color: white;width: 120px;height: 60px;border-radius: 40px;background-image: url(../images/bu.png);cursor: pointer;}
+.block{width: 38px;height: 38px;margin:1px;float: left;text-align: center;line-height: 38px;border-radius:5px;font-size: 34px;font-weight: bold;color:black;}
+.block:hover{background-color: #E46B02;opacity: 0.95}
+.chongxin{position: absolute;top: 100px;right: 100px;z-index: 220;width: 200px;height: 100px;background-image: url(../images/chong.png);cursor:pointer;}
+.orange{background-color: #76A6EC;}
+.yellow{background-color: yellow;}
+.green{background-color: green;}
+.purple{background-color: purple;}
+.blue{background-color: blue;}
+.pink{background-color: pink;}
+.black{background-color: black;}
+.red{background-image: url(../images/9.png);background-size: 38px 38px}
+.donghua{animation-name:bianda;
+		animation-duration: 1s;
+		transition:all 2s ease;}
+@keyframes bianda{
+	0%,100%{transform: scale(1,1)}
+	50%{transform: scale(1.2,1.2)}
+}
